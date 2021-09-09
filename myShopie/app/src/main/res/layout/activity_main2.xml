@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About myShopie"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="346dp"
+        android:layout_height="181dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="myShopie is about giving back to the customers"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="626dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
